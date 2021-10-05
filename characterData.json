@@ -1,0 +1,35 @@
+{
+
+    "char1": [
+                {
+            "class":"gunner",
+            "level":1,
+            "weapon":"gun",
+            "health":100,
+            "shields":100,
+            "damage":10
+        }
+    ],
+
+    "char2": [
+                {
+            "class":"wizard",
+            "level":1,
+            "weapon":"staff",
+            "health":100,
+            "shields":100,
+            "damage":20
+        }
+    ],
+
+    "hostileChar1": [
+                {
+            "class":"miniDragons",
+            "level":1,
+            "weapon":"fire",
+            "health":100,
+            "shields":100,
+            "damage":20
+        }
+    ]
+}
