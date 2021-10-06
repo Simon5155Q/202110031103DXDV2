@@ -158,7 +158,7 @@ function spawnRngEntities(){
 }
 
 function entityProjectiles(){
-    // if(entityGroup.length < 0){
+     if(entityGroup.length > 0){
         if(frameCount % 24 === 0){
             for(var i = 0; i < 10; i++){
                     eProjectile = createSprite(projectileX,projectileY,12,12);
@@ -174,7 +174,7 @@ function entityProjectiles(){
                     }
             }
         }
-    // }
+    }
 }
 
 
